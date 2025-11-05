@@ -1,0 +1,36 @@
+data_processing:
+  missing_value_strategy: "auto"
+  encoding_strategy: "auto" 
+  scaling_strategy: "standard"
+
+feature_engineering:
+  create_interactions: true
+  create_polynomials: true
+  feature_selection: true
+  max_features: 50
+  pca_components: 0.95
+
+model_selection:
+  cv_folds: 5
+  scoring_metric: "auto"
+  problem_type: "auto"
+
+hyperparameter_optimization:
+  method: "random"
+  n_iter: 50
+  cv_folds: 3
+
+neural_architecture_search:
+  max_epochs: 100
+  patience: 10
+  validation_split: 0.2
+
+ensemble:
+  enable_ensemble: true
+  top_k_models: 3
+  voting_method: "soft"
+
+deployment:
+  host: "0.0.0.0"
+  port: 5000
+  debug: false
