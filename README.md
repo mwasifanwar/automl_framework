@@ -1,19 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-body {font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; color: #333;}
-h1, h2, h3 {color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px;}
-code {background: #f4f4f4; padding: 2px 6px; border-radius: 3px;}
-pre {background: #2c3e50; color: white; padding: 15px; border-radius: 5px; overflow-x: auto;}
-table {width: 100%; border-collapse: collapse; margin: 20px 0;}
-th, td {padding: 12px; text-align: left; border-bottom: 1px solid #ddd;}
-th {background-color: #3498db; color: white;}
-.feature-grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;}
-.feature-card {background: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #3498db;}
-.math-block {background: #e8f4f8; padding: 15px; border-radius: 5px; margin: 15px 0; text-align: center;}
-</style>
-</head>
 <body>
 
 <h1>AutoML Framework: End-to-End Automated Machine Learning</h1>
